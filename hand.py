@@ -43,7 +43,7 @@ while cap.isOpened():
                 hand_raised = False
 
     cv2.imshow("Hand Tracking", frame)
-    cv2.imshow("Hand Trackingx", frame)
+    # cv2.imshow("Hand Trackingx", frame)
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
 
